@@ -1,36 +1,38 @@
 # Presentaciones Profesionales
 
-Skill básica de ejemplo creada por Punilla Digital para preparar el contenido de una presentación.
+Este repositorio conserva la [skill general básica](SKILL.md) y agrega una especialidad completa:
 
-## Alcance
-Tabla de diapositiva, título, texto, visual y notas. Esta versión prepara contenido e instrucciones; no incluye scripts, integraciones ni exportación automática de archivos.
+## Presentación y análisis de software en PDF
 
-## Uso
-- Consultar [SKILL.md](SKILL.md) y proporcionar los datos de entrada que indica.
-- En un agente compatible, colocar la carpeta `presentaciones-profesionales` con el archivo `SKILL.md` en el directorio de skills que admita ese entorno.
-- En otros asistentes, adjuntar o pegar las instrucciones como contexto. Esto no garantiza instalación ni activación automática.
+Presentaciones e informes de software con capturas, análisis funcional, beneficios, iconos y diagramas. PDF A4 vertical por defecto o presentación horizontal 16:9.
 
-## Personalizar la marca
-Cambiar la sección «Identidad configurable» en SKILL.md o indicar la configuración en cada pedido:
+- Instrucciones: [SKILL.md](skills/presentacion-analisis-software-pdf/SKILL.md).
+- Recursos e iconos: incluidos en `skills/presentacion-analisis-software-pdf/assets/` y `skills/presentacion-analisis-software-pdf/agents/`.
+- Referencias: `skills/presentacion-analisis-software-pdf/references/`.
 
-```text
-Marca: Mi negocio
-Logo: archivo adjunto
-Colores: #7C3AED, #F97316 y #FFFFFF
-Tipografía: sans serif o la fuente de mi marca
-Tema: claro u oscuro
-Tono: profesional y directo
-```
+## Requisitos
 
-La paleta incluida es ilustrativa. No se incluye un archivo de logo; utilizar uno propio. La identidad afecta la presentación cuando corresponde, sin cambiar datos o cálculos.
+Agente con inspección de imágenes, ejecución de código y herramientas para crear y renderizar PDF. No incluye un generador propio: la skill dirige la composición con las herramientas PDF disponibles. No sustituir el PDF por PPTX.
 
-## Ejemplo de pedido
-> Prepará una presentación comercial de seis diapositivas.
+## Uso e instalación
 
-## Resultado esperado
-Tabla de diapositiva, título, texto, visual y notas.
+1. Descargar el repositorio.
+2. Usar la carpeta `skills/presentacion-analisis-software-pdf` para esta especialidad. Para la versión general, usar el SKILL.md de la raíz.
+3. En un agente compatible, copiar la carpeta completa con el nombre `presentacion-analisis-software-pdf` a su directorio de skills. Conservar scripts, referencias y recursos junto al SKILL.md. Si el entorno ofrece importación, seguir su procedimiento; publicar en GitHub no instala automáticamente la skill en ChatGPT.
+4. Resolver las rutas de recursos desde la carpeta de la skill. En otros asistentes, adjuntar solo SKILL.md no carga automáticamente scripts ni imágenes.
 
-## Créditos
-[Punilla Digital](https://punilladigital.com.ar/) · [Catálogo de Skills](https://punilladigital.com.ar/skils/)
+Las menciones a habilidades de PDF o generación de imágenes requieren herramientas equivalentes en el entorno; no se incluyen habilidades de terceros. Los iconos de agents/openai.yaml dependen del soporte del agente.
 
-Consultar LICENSE, si está presente, para las condiciones de uso.
+## Ejemplo
+
+> Presentá este software a partir de mis capturas, con análisis de módulos y formato horizontal 16:9 en PDF.
+
+## Identidad y recursos
+
+Conservar los logos y las reglas incluidas. Aplicar los cambios de marca, colores o formato que admita la habilidad y solicite el usuario. No inventar un logo ni presentar archivos como generados antes de crearlos y verificarlos.
+
+## Origen y alcance
+
+Copia de la habilidad personal de Punilla Digital aprobada para este repositorio el 15/10/2026. Se preservan sus instrucciones y recursos funcionales; esta publicación no modifica la habilidad instalada en Complementos.
+
+[Punilla Digital](https://punilladigital.com.ar/) · Consultar [LICENSE](LICENSE).

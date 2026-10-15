@@ -1,0 +1,14 @@
+interface:
+  display_name: Presentación y análisis de software en PDF
+  short_description: Software explicado con capturas y análisis visual
+  default_prompt: Usá $presentacion-analisis-software-pdf para presentar este software
+    con capturas, análisis funcional e identidad de Punilla Digital en un PDF.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -32,3 +32,6 @@ No inventar clientes, precios, resultados, credenciales ni fuentes. Entregar tex
 
 ## Ejemplo
 Prepará una presentación comercial de seis diapositivas.
+
+## Especialidad disponible
+Para presentaciones y análisis de software en PDF, leer [Presentación y análisis de software en PDF](skills/presentacion-analisis-software-pdf/SKILL.md) y usar sus recursos junto a ese archivo.
